@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+   <header>
+      <authors>
+         <author>
+            <name>Козлов Н.C.</name>
+            <email></email>
+         </author>
+      </authors>
+      <dates>
+         <creation></creation>
+         <validation></validation>         
+      </dates>
+      <licensedesc></licensedesc>
+      <appname>Firefox вкладка debug</appname>
+      <desc>Вкладка debug в браузере позволяет производить различные манипуляции с файловой структуруой веб страницы, производить отладку и т.д</desc>      
+      <url>https://firefox-source-docs.mozilla.org/devtools-user/debugger-api//</url>
+      <demourl></demourl>
+      <language>en</language>
+      <qsosappname>Mozila Firefox</qsosappname>
+      <qsosformat>1.0</qsosformat>      
+      <qsosappfamily>Mozila Firefox</qsosappfamily>
+   </header>
+   <section name="generic" title="Общий раздел">
+      <desc>Разработка,сопровождение и документация</desc>
+      <element name="dev_doc" title="Разработка документации">
+         <desc>Документация</desc>
+         <element name="dev_have" title="Наличие документации">
+            <desc></desc>
+            <desc0>Есть документация</desc0>
+            <score>2</score>
+         </element>
+         <element name="dev_author" title="Авторы документации">
+            <desc></desc>
+            <desc0>Авторы документации отображены не главной странице</desc0>
+            <score>1</score>
+         </element>         
+         <element name="dev_video" title="Видео с описанием инструмента">
+            <desc></desc>
+            <desc0>Нет видео с описанием инструмента на главной странице</desc0>
+            <score>1</score>
+         </element>         
+         <element name="dev_language" title="Документация на разных языках">
+            <desc></desc>
+            <desc0>Документация только на английском</desc0>
+            <score>1</score>
+         </element>         
+    </element>    
+      <element name="dev_doc" title="Разработка">
+         <desc>Разработка</desc>
+         <element name="dev_have" title="Сопровождение">
+            <desc></desc>
+            <desc0>Инструмент постоянно улучшается</desc0>
+            <score>2</score>
+         </element>         
+    </element>    
+      <element name="dev_doc" title="Вомзожности">
+         <desc>Вомзожности</desc>
+         <element name="dev_have_file" title="Просмотр файлов">
+            <desc></desc>
+            <desc0>Вомзожность просматривать файловую структуру присутсвует</desc0>
+            <score>2</score>
+         </element>         
+         <element name="dev_have_edit" title="Редактирование CSS и JS">
+            <desc></desc>
+            <desc0>Вомзожность редактировать CSS и Js есть</desc0>
+            <score>2</score>
+         </element>         
+         <element name="dev_have_snp" title="Запуск, сохранение и создание сниппетов">
+            <desc></desc>
+            <desc0>Вомзожность работы со сниппетами есть</desc0>
+            <score>2</score>
+         </element>         
+         <element name="dev_have_debug" title="Отладка Js">
+            <desc></desc>
+            <desc0>Вомзожность отладки Js есть</desc0>
+            <score>2</score>
+         </element> 
+         <element name="dev_have_focus_only_code" title="Фокусировка на коде">
+            <desc></desc>
+            <desc0>Нет вомзожности убрать лишние с пространства</desc0>
+            <score>1</score>
+         </element>         
+    </element>    
+   </section>
+</document>
